@@ -1,0 +1,16 @@
+#!/bin/bash
+
+STATE_FILE="/tmp/gtbook_rgb_state"
+
+# Check if the state file doesn't exist, or if it says "battery"
+if [ ! -f "$STATE_FILE" ] || grep -q "battery" "$STATE_FILE"; then
+    # Switch to AC Mode
+    sudo laptopfunctions rgb --ac-mode
+    echo "ac" > "$STATE_FILE"
+    notify-send -u low -t 2000 "GT Book RGB" "Switched to AC Mode"
+else
+    # Switch to Battery Mode
+    sudo laptopfunctions rgb --battery-mode
+    echo "battery" > "$STATE_FILE"
+    notify-send -u low -t 2000 "GT Book RGB" "Switched to Battery Mode"
+fi

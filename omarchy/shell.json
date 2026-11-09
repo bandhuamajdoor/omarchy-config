@@ -1,0 +1,128 @@
+{
+  "bar": {
+    "layout": {
+      "center": [
+        {
+          "id": "omarchy.weather"
+        },
+        {
+          "id": "tornikegomareli.spaces",
+          "density": "compact",
+          "holdSuperNumbers": false,
+          "persistentWorkspaces": 7,
+          "previewSize": "medium"
+        },
+        {
+          "id": "omarchy.agents"
+        },
+        {
+          "id": "omarchy.spacer"
+        },
+        {
+          "id": "omarchy.system-update"
+        }
+      ],
+      "left": [
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "format": "ddd d MMM h:mm AP",
+          "formatAlt": "d MMMM 'W'ww yyyy",
+          "id": "omarchy.clock",
+          "verticalFormat": "HH\n—\nmm"
+        },
+        {
+          "id": "omarchy.elsewhen",
+          "cities": [
+            {
+              "name": "Kolkata",
+              "zone": "Asia/Kolkata"
+            },
+            {
+              "name": "Tokyo",
+              "zone": "Asia/Tokyo"
+            },
+            {
+              "name": "Los Angeles",
+              "zone": "America/Los_Angeles"
+            },
+            {
+              "name": "New York",
+              "zone": "America/New_York"
+            },
+            {
+              "name": "London",
+              "zone": "Europe/London"
+            }
+          ]
+        },
+        {
+          "id": "io.github.nobledoodle.omarchroma"
+        },
+        {
+          "id": "omarchy.indicators"
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.tray"
+        },
+        {
+          "id": "gladimdim.config-sync"
+        },
+        {
+          "id": "marcho78.o-spotlight",
+          "barIcon": false
+        },
+        {
+          "id": "omarchy.keyboard-layout"
+        },
+        {
+          "id": "omarchy.dropbox"
+        },
+        {
+          "id": "io.github.ilyazar.syncthing"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "majdoor.audio"
+        },
+        {
+          "id": "omarchy.power",
+          "showPercentage": false
+        },
+        {
+          "id": "jankeesvw.notification-center"
+        }
+      ],
+      "centerBegin": [],
+      "centerEnd": [],
+      "tray": [
+        {
+          "id": "superwhisper.panel"
+        }
+      ]
+    },
+    "position": "top",
+    "transparent": true
+  },
+  "idle": {
+    "lock": 300,
+    "screensaver": 150
+  },
+  "plugins": [
+    {
+      "id": "io.github.agentrby.omarchy-speedup-browser-startup"
+    },
+    {
+      "id": "io.github.kirollosatef.hyprscroll2d"
+    }
+  ],
+  "version": 1
+}

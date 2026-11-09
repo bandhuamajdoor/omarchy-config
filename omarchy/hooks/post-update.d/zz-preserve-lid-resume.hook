@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Omarchy keeps its existing sudo authorization valid through post-update hooks.
+set -euo pipefail
+sudo -n /usr/local/sbin/omarchy-lid-resume-guard

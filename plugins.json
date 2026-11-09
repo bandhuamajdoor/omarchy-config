@@ -1,0 +1,55 @@
+{
+  "format": "omarchy-config-plugins",
+  "version": 1,
+  "plugins": [
+    {
+      "id": "io.github.agentrby.omarchy-speedup-browser-startup",
+      "name": "Speedup Browser Startup",
+      "version": "0.1.0",
+      "commit": "59c9ec3cd51266706b58633b02db7eff0ec6df9f",
+      "source": "https://github.com/AgentRBY/omarchy-speedup-browser-startup.git"
+    },
+    {
+      "id": "io.github.ilyazar.syncthing",
+      "name": "Syncthing",
+      "version": "0.2.4",
+      "commit": "3cd6060132550f63fd4636d6519081275793cfd9",
+      "source": "https://github.com/omarchy-QOL/syncshell.git"
+    },
+    {
+      "id": "io.github.kirollosatef.hyprscroll2d",
+      "name": "Hyprscroll2D",
+      "version": "0.2.0",
+      "commit": "f8d4eddf057769db0fef7c1191e845126abcf4cd",
+      "source": "https://github.com/kirollosatef/hyprscroll2d.git"
+    },
+    {
+      "id": "io.github.nobledoodle.omarchroma",
+      "name": "Omarchroma",
+      "version": "3.2.7",
+      "commit": "096d8b2cf782e8c26456e25f49537d7c92c5826b",
+      "source": "https://github.com/NobleDoodle/omarchroma.git"
+    },
+    {
+      "id": "jankeesvw.notification-center",
+      "name": "Notification Center",
+      "version": "1.1.0",
+      "commit": "5dbd5abadaba32d0333fed76798dfc7450448922",
+      "source": "https://github.com/jankeesvw/omarchy-notification-center.git"
+    },
+    {
+      "id": "marcho78.o-spotlight",
+      "name": "O-Spotlight",
+      "version": "1.0.1",
+      "commit": "f435bafd47ad4729b03b2310cc827a787bd5e1da",
+      "source": "https://github.com/marcho78/o-spotlight.git"
+    },
+    {
+      "id": "tornikegomareli.spaces",
+      "name": "Spaces",
+      "version": "1.5.0",
+      "commit": "751106fc4f7f13e0b406131aaa0abf191e13d40b",
+      "source": "https://github.com/tornikegomareli/omarchy-spaces.git"
+    }
+  ]
+}

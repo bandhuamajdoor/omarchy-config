@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Check if the main program is installed
+if ! command -v byd-n16-rgb &> /dev/null; then
+    echo "Error: byd-n16-rgb is not installed or not in your PATH. Go YAY" >&2
+    exit 1
+fi
+
+# Pass all arguments exactly as received to the main program
+exec byd-n16-rgb "$@"

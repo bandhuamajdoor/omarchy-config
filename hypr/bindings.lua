@@ -1,0 +1,17 @@
+
+-- config-sync cherry-pick
+hl.unbind("ALT + SPACE")
+o.bind("ALT + XF86AudioLowerVolume", "Volume down precise", "~/.local/bin/omarchy-audio-output-volume -1", { locked = true, repeating = true })
+o.bind("ALT + XF86AudioRaiseVolume", "Volume up precise", "~/.local/bin/omarchy-audio-output-volume +1", { locked = true, repeating = true })
+hl.unbind("SUPER + ALT + F")
+o.bind("SUPER + CTRL + ALT + S", "Spaces settings", "omarchy-shell tornikegomareli.spaces toggle")
+hl.unbind("SUPER + CTRL + E")
+o.bind("SUPER + CTRL + F3", "Toggle GTBook backlit modes", "~/.local/bin/keybd -c")
+  o.bind("SUPER + CTRL + X", "Toggle dictation", "omarchy-dictation toggle")
+o.bind("SUPER + CTRL + semicolon", "Emojis", "omarchy-shell shell toggle omarchy.emojis")
+o.bind("SUPER + D", "Full width", hl.dsp.window.fullscreen({ mode = "maximized" }))
+o.bind("SUPER + F3", "Toggle GTBook backlit intensity", "~/.local/bin/gtbook-rgb-toggle")
+o.bind("XF86AudioLowerVolume", "Volume down", "~/.local/bin/omarchy-audio-output-volume lower", { locked = true, repeating = true })
+o.bind("XF86AudioMute", "Mute", "~/.local/bin/omarchy-audio-output-volume mute-toggle", { locked = true })
+o.bind("XF86AudioRaiseVolume", "Volume up", "~/.local/bin/omarchy-audio-output-volume raise", { locked = true, repeating = true })
+o.bind("code:184", "Balanced", "sudo laptopfunctions mode performance && powerprofilesctl set balanced")
