@@ -58,18 +58,12 @@
           ]
         },
         {
-          "id": "io.github.nobledoodle.omarchroma"
-        },
-        {
           "id": "omarchy.indicators"
         }
       ],
       "right": [
         {
           "id": "omarchy.tray"
-        },
-        {
-          "id": "gladimdim.config-sync"
         },
         {
           "id": "marcho78.o-spotlight",
@@ -80,6 +74,9 @@
         },
         {
           "id": "omarchy.dropbox"
+        },
+        {
+          "id": "gladimdim.config-sync"
         },
         {
           "id": "io.github.ilyazar.syncthing"
