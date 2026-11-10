@@ -24,6 +24,9 @@
       ],
       "left": [
         {
+          "id": "gladimdim.config-sync"
+        },
+        {
           "id": "omarchy.monitor"
         },
         {
@@ -76,9 +79,6 @@
           "id": "omarchy.dropbox"
         },
         {
-          "id": "gladimdim.config-sync"
-        },
-        {
           "id": "io.github.ilyazar.syncthing"
         },
         {
@@ -100,11 +100,7 @@
       ],
       "centerBegin": [],
       "centerEnd": [],
-      "tray": [
-        {
-          "id": "superwhisper.panel"
-        }
-      ]
+      "tray": []
     },
     "position": "top",
     "transparent": true
